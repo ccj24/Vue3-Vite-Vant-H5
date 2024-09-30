@@ -6,6 +6,7 @@
 <script setup>
 import { ref, reactive } from "vue";
 import tabbar from "@/components/tabbar/index.vue";
+import http from "@/api/request";
 
 const value = ref("");
 </script>
