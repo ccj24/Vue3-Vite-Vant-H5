@@ -9,7 +9,7 @@ import App from './App.vue'
 import "amfe-flexible"//引进浏览器自适应js
 
 //引用组件
-import { Button, Field, CellGroup, Tabbar, TabbarItem, Search } from "vant"
+import { Button, Field, CellGroup, Tabbar, TabbarItem, Search, Grid, GridItem, List } from "vant"
 //引入样式
 import "vant/lib/index.css"
 
@@ -23,6 +23,9 @@ app.use(CellGroup)
 app.use(Tabbar)
 app.use(TabbarItem)
 app.use(Search)
+app.use(Grid)
+app.use(GridItem)
+app.use(List)
 app.use(router)
 app.mount('#app')
 
